@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import resume from "../Front-End Developer.pdf";
 
 const Contact = () => {
   return (
@@ -12,7 +13,12 @@ const Contact = () => {
             <Col>
               {" "}
               You can use those contact icons to reach Janice for job
-              opportunities:
+              opportunities.
+              <br /> <br />
+              My current resume is attached{" "}
+              <a href={resume} target="parent">
+                here.
+              </a>
             </Col>
 
             <Col>
@@ -72,7 +78,6 @@ const Contact = () => {
                 </svg>
                 561 - 702 - 4883 (cell)
               </a>
-              
               <br /> <br /> <br />
               <a href="tel:5619218705">
                 <svg
@@ -90,7 +95,7 @@ const Contact = () => {
                 </svg>{" "}
                 561 - 921 - 8705 (home) <br />{" "}
               </a>
-              <br /> <br /> <br />
+              <br /> <br /> <br /> <br />
             </Col>
           </Row>
         </Container>
