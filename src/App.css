@@ -18,8 +18,9 @@ h1 {
 }
 
 .nav-logo {
-  height: 60px;
-  width: 60px;
+  height: 70px;
+  width: 170px;
+
 }
 
 .nav-logo:hover {
@@ -36,9 +37,10 @@ h1 {
 }
 
 .nav-item {
-  display: inline;
+  display:inline;
   margin-left: 3rem;
   color: #333;
+  
 }
 
 .nav-item:hover {

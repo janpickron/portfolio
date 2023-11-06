@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <nav className="nav">
-      <img src={logo} className="nav-logo" alt="Logo" onClick={scrollToTop} />
+      <img src={logo} className="nav-logo" alt="React Logo" onClick={scrollToTop} />
       <Link
         className="nav-item-janice-pickron"
         activeClass="active"
@@ -21,7 +21,7 @@ const Header = () => {
         to="home"
       >
         {" "}
-        Janice Pickron | Front End Developer
+        Janice Pickron | Full Stack/Front End Developer
       </Link>
       <div className="nav-content">
         <ul>
