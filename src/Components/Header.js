@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -7,6 +7,16 @@ const Header = () => {
     scroll.scrollToTop();
   };
 
+  const [jobPosition, setJobPosition] = useState("Front End Developer");
+
+  const changeJobPosition = () => {
+    if (jobPosition === "Front End Developer") {
+      setJobPosition("Full Stack Developer");
+    } else {
+      setJobPosition("Front End Developer");
+    }
+  };
+  
   return (
     <nav className="nav">
       <img src={logo} className="nav-logo" alt="React Logo" onClick={scrollToTop} />
@@ -18,10 +28,11 @@ const Header = () => {
         offset={-70}
         duration={500}
         onClick={scrollToTop}
+      
         to="home"
       >
         {" "}
-        Janice Pickron | Full Stack/Front End Developer
+        Janice Pickron | {jobPosition}
       </Link>
       <div className="nav-content">
         <ul>
@@ -30,9 +41,10 @@ const Header = () => {
               activeClass="active"
               smooth
               spy
-              offset={-60}
+              offset={-70}
               duration={500}
               to="about"
+              onClick={changeJobPosition}
             >
               About
             </Link>
@@ -45,6 +57,7 @@ const Header = () => {
               spy
               offset={-70}
               duration={500}
+              onClick={changeJobPosition}
               to="project"
             >
               Projects
@@ -58,6 +71,7 @@ const Header = () => {
               offset={-70}
               duration={500}
               to="contact"
+              onClick={changeJobPosition}
             >
               Contact
             </Link>

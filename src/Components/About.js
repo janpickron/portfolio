@@ -40,7 +40,7 @@ const About = () => {
               </p>
             </Col>
             <Col>
-              <img src={headshot} className="jan-headshot" alt="Janice" />
+              <img src={headshot} className="jan-headshot" alt="Headshot of Janice Pickron" />
             </Col>
           </Row>
         </Container>

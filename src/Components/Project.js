@@ -34,13 +34,20 @@ const Project = () => {
                     </td>
 
                     <td>
+                    <a
+                        href={x.link}
+                        target="parent"
+                        key={index}
+                    
+                      >
                       <img
                         src={x.image}
                         height={200}
                         width={170}
                         link={x.link}
-                        alt="screenshot"
+                        alt={x.alt}
                       ></img>
+                      </a>
                       <br />
                       <br />
                     </td>
