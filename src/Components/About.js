@@ -33,10 +33,9 @@ const About = () => {
                 passion with love!
               </p>
               <p>
-                When I am not designing and developing websites, outdoors
-                activities keeps me busy. Also, I enjoy paddleboarding at the
-                beach, and playing with my two black and white cats, Bonnie and
-                Clyde.
+                Outside of technology, paddleboarding at a 
+                beach, swinging racquet sports, reading mysterious books, and  toying with my two black and white cats, Bonnie and
+                Clyde are what I enjoy.
               </p>
             </Col>
             <Col>

@@ -15,7 +15,7 @@ const Project = () => {
         <Container>
           <table>
             <tbody>
-              <br />
+            
               {projects &&
                 projects.map((x, index) => (
                   <tr key={index}>
@@ -29,7 +29,7 @@ const Project = () => {
                         {x.title}
                         <br /> <br />
                         {x.description}
-                        <br /> <br />
+                        <br />
                       </a>
                     </td>
 
@@ -38,7 +38,6 @@ const Project = () => {
                         href={x.link}
                         target="parent"
                         key={index}
-                    
                       >
                       <img
                         src={x.image}
