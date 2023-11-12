@@ -28,7 +28,6 @@ const Header = () => {
         offset={-70}
         duration={500}
         onClick={scrollToTop}
-      
         to="home"
       >
         {" "}
@@ -49,7 +48,19 @@ const Header = () => {
               About
             </Link>
           </li>
-
+          <li className="nav-item">
+            <Link
+              activeClass="active"
+              smooth
+              spy
+              offset={-70}
+              duration={500}
+              onClick={changeJobPosition}
+              to="skill"
+            >
+              Skills
+            </Link>
+          </li>
           <li className="nav-item">
             <Link
               activeClass="active"

@@ -5,7 +5,7 @@ import resume from "../Front-End Developer.pdf";
 
 const Contact = () => {
   return (
-    <div id="contact">
+    <div className={"section-dark"} id="contact">
       <div className={"section-content"}>
         <h1>Contact</h1>
 

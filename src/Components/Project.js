@@ -4,12 +4,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 
 const textStyle = {
-  color: "white",
+  color: "black"
 };
 
 const Project = () => {
   return (
-    <div className={"section-dark"} id="project">
+    <div className={"section"} id="project">
       <div className={"section-content"}>
         <h1>Projects</h1>
         <Container>
@@ -45,6 +45,8 @@ const Project = () => {
                         width={170}
                         link={x.link}
                         alt={x.alt}
+                        style={{border:"2px solid #333",}}
+                        className="square bg-primary rounded"
                       ></img>
                       </a>
                       <br />
