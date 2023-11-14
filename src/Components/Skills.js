@@ -9,6 +9,7 @@ const Skills = () => {
     <div className={"section-dark"} id="skill">
       <div className={"section-content"}>
         <h1>Skills</h1>
+        <br /> <br />
         <Container fluid>
           <Row>
             <Col className="fw-bold">Languages & Platforms</Col>

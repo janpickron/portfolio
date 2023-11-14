@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import logo from "../logo.svg";
+import HamburgerMenu from "./HamburgerMenu";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
@@ -20,6 +27,7 @@ const Header = () => {
   return (
     <nav className="nav">
       <img src={logo} className="nav-logo" alt="React Logo" onClick={scrollToTop} />
+     
       <Link
         className="nav-item-janice-pickron"
         activeClass="active"
@@ -30,10 +38,10 @@ const Header = () => {
         onClick={scrollToTop}
         to="home"
       >
-        {" "}
+       
         Janice Pickron | {jobPosition}
       </Link>
-      <div className="nav-content">
+      <div className={`nav-content ${menuOpen ? "open" : ""}`}>
         <ul>
           <li className="nav-item">
             <Link
@@ -88,7 +96,9 @@ const Header = () => {
             </Link>
           </li>
         </ul>
+       
       </div>
+      <HamburgerMenu toggleMenu={toggleMenu} />
     </nav>
   );
 };
