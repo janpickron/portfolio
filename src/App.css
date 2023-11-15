@@ -36,7 +36,7 @@ nav {
 .nav-logo {
   height: 70px;
   width: 70px;
-  margin-top: -2px;
+  margin-top: 1px;
 }
 
 .nav-logo:hover {
@@ -45,11 +45,10 @@ nav {
 
 .nav-content {
   margin-top: 20px;
-  margin-right: 20px;
+  margin-right: 50px;
   float: right;
   display: flex;
   align-items: center;
-
   font-family: "Roboto Slab", serif;
   font-size: 21px;
   transition: transform 0.2s ease-in-out;
@@ -59,7 +58,7 @@ nav {
   transform: translateX(0);
 }
 
-@media (max-width: 968px) {
+@media (max-width: 1000px) {
   .hamburger-menu {
     display: block;
   }
@@ -101,13 +100,11 @@ nav {
   text-decoration: none;
   font-size: 22px;
   font-family: "Roboto Slab", serif;
-
   color: black;
 }
 
 .nav-item-janice-pickron:hover {
   color: black;
-
   cursor: pointer;
 }
 
@@ -146,7 +143,7 @@ a {
   font-family: "Roboto Slab", serif;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .code-design-build {
@@ -172,7 +169,7 @@ a {
 }
 
 .jan-headshot {
-  height: 60vmin;
+  height: 70vmin;
   pointer-events: none;
   border-radius: 10px;
 }
