@@ -25,8 +25,8 @@ const Header = () => {
   };
   
   return (
-    <nav className="nav">
-      <img src={logo} className="nav-logo" alt="React Logo" onClick={scrollToTop} />
+    <nav >
+      <img src={logo} className="nav-logo-header" alt="React Logo" onClick={scrollToTop} />
      
       <Link
         className="nav-item-janice-pickron"
@@ -37,9 +37,7 @@ const Header = () => {
         duration={500}
         onClick={scrollToTop}
         to="home"
-      >
-       
-        Janice Pickron | {jobPosition}
+      >  Janice Pickron | {jobPosition}
       </Link>
       <div className={`nav-content ${menuOpen ? "open" : ""}`}>
         <ul>
@@ -96,7 +94,6 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-       
       </div>
       <HamburgerMenu toggleMenu={toggleMenu} />
     </nav>

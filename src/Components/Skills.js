@@ -9,7 +9,6 @@ const Skills = () => {
     <div className={"section-dark"} id="skill">
       <div className={"section-content"}>
         <h1>Skills</h1>
-        <br /> <br />
         <Container fluid>
           <Row>
             <Col className="fw-bold">Languages & Platforms</Col>
@@ -17,26 +16,31 @@ const Skills = () => {
           <Row>
             <Col>
               {" "}
-              React, JavaScript, Node.js, Bootstrap, CSS3, HTML, TypeScript, Web
-              Accessibility, Software Testing
+              React, JavaScript, Node.js, Express, Bootstrap, CSS3, HTML,
+              TypeScript
             </Col>
           </Row>
           <br />
-
+          <br />
           <Row>
             <Col className="fw-bold">Database </Col>
           </Row>
           <Row>
             <Col> MongoDB</Col>
           </Row>
-          <br />
+          <br /> <br />
           <Row>
-            <Col className="fw-bold">Other </Col>
+            <Col className="fw-bold">Others </Col>
           </Row>
           <Row>
-            <Col>Jest, Firebase, Cloud Run, CI/CD, CMS </Col>
+            <Col>
+              Jest, Postman, Firebase, Cloud Run, CI/CD, Web Accessibility,
+              Software Testing, GitHub, CMS, Drupal
+            </Col>
           </Row>
         </Container>
+        <br /> <br />
+        <br /> <br />
       </div>
     </div>
   );

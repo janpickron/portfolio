@@ -15,7 +15,6 @@ const Project = () => {
         <Container>
           <table>
             <tbody>
-            
               {projects &&
                 projects.map((x, index) => (
                   <tr key={index}>

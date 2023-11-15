@@ -6,6 +6,7 @@ import Project from "./Components/Project";
 import Contact from "./Components/Contact";
 import "./App.css";
 import Skills from "./Components/Skills";
+import Footer from "./Components/Footer";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Skills />
       <Project />
       <Contact />
+      <Footer />
     </div>
   );
 }
