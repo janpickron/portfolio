@@ -7,7 +7,7 @@ const Home = () => {
     <div className={"section-dark"} id="home">
       <div className={"section-content"}>
         <p className="intro">
-          Hi, my name is Janice.{" "}
+          Hi, my name is Janice.
           <img src={logo} className="nav-logo" alt="Logo" /> I code, design, and
           build.
         </p>

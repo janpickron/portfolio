@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 
 const textStyle = {
-  color: "black"
+  color: "black",
 };
 
 const Project = () => {
@@ -33,20 +33,16 @@ const Project = () => {
                     </td>
 
                     <td>
-                    <a
-                        href={x.link}
-                        target="parent"
-                        key={index}
-                      >
-                      <img
-                        src={x.image}
-                        height={200}
-                        width={170}
-                        link={x.link}
-                        alt={x.alt}
-                        style={{border:"2px solid #333",}}
-                        className="square bg-primary rounded"
-                      ></img>
+                      <a href={x.link} target="parent" key={index}>
+                        <img
+                          src={x.image}
+                          height={200}
+                          width={170}
+                          link={x.link}
+                          alt={x.alt}
+                          style={{ border: "2px solid #333" }}
+                          className="square bg-primary rounded"
+                        ></img>
                       </a>
                       <br />
                       <br />

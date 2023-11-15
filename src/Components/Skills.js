@@ -17,7 +17,7 @@ const Skills = () => {
             <Col>
               {" "}
               React, JavaScript, Node.js, Express, Bootstrap, CSS3, HTML,
-              TypeScript
+              TypeScript, PHP
             </Col>
           </Row>
           <br />
@@ -35,12 +35,11 @@ const Skills = () => {
           <Row>
             <Col>
               Jest, Postman, Firebase, Cloud Run, CI/CD, Web Accessibility,
-              Software Testing, GitHub, CMS, Drupal
+              PhotoShop, Software Testing, GitHub, WordPress, Drupal
             </Col>
           </Row>
         </Container>
-        <br /> <br />
-        <br /> <br />
+        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
       </div>
     </div>
   );

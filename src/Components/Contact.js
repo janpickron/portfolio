@@ -6,8 +6,9 @@ const Contact = () => {
   return (
     <div className={"section-dark"} id="contact">
       <div className={"section-content"}>
-        <h1>Contact</h1>
+        <h1>Contact Janice</h1>
         <br /> <br /> <br />
+        <br />
         <table className="table-center">
           <tbody>
             <tr>
@@ -80,7 +81,7 @@ const Contact = () => {
             </tr>
           </tbody>
         </table>
-        <br /> <br /> <br /> <br />
+        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
       </div>
     </div>
   );

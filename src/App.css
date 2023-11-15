@@ -44,12 +44,12 @@ nav {
 }
 
 .nav-content {
-   margin-top: 20px;
-   margin-right: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
   float: right;
   display: flex;
   align-items: center;
- 
+
   font-family: "Roboto Slab", serif;
   font-size: 21px;
   transition: transform 0.2s ease-in-out;
@@ -101,7 +101,7 @@ nav {
   text-decoration: none;
   font-size: 22px;
   font-family: "Roboto Slab", serif;
- 
+
   color: black;
 }
 
@@ -146,7 +146,7 @@ a {
   font-family: "Roboto Slab", serif;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .code-design-build {
@@ -168,7 +168,7 @@ a {
 }
 
 .project-content {
-  color: #fafafa;
+  vertical-align: top;
 }
 
 .jan-headshot {

@@ -23,11 +23,16 @@ const Header = () => {
       setJobPosition("Front End Developer");
     }
   };
-  
+
   return (
-    <nav >
-      <img src={logo} className="nav-logo-header" alt="React Logo" onClick={scrollToTop} />
-     
+    <nav>
+      <img
+        src={logo}
+        className="nav-logo-header"
+        alt="React Logo"
+        onClick={scrollToTop}
+      />
+
       <Link
         className="nav-item-janice-pickron"
         activeClass="active"
@@ -37,7 +42,9 @@ const Header = () => {
         duration={500}
         onClick={scrollToTop}
         to="home"
-      >  Janice Pickron | {jobPosition}
+      >
+        
+        Janice Pickron | {jobPosition}
       </Link>
       <div className={`nav-content ${menuOpen ? "open" : ""}`}>
         <ul>
