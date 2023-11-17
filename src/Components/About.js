@@ -20,7 +20,7 @@ const About = () => {
                   enjoy collaborating with others on projects. My goal is to
                   find a position that aligns with my values. Web accessibility
                   is my passion to ensure that all people have equal access to
-                  technology (or websites, etc.)
+                  technology.
                 </p>
                 <p>
                   With 20+ years in the tech community, I am committed learning
