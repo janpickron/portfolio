@@ -9,7 +9,7 @@ const About = () => {
         <table>
           <tbody>
             <tr className="about-content">
-              <td>
+              <td className="about-me">
                 <p>
                   I am recognized for my dependability, conscientiousness, and
                   boundless enthusiasm, coupled with an unwavering dedication to

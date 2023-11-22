@@ -127,11 +127,27 @@ nav {
 
 .section-content {
   font-size: 20px;
-  max-width: 1100px;
+  width: 80%;
   margin: 0 auto;
   padding: 40px;
   text-decoration: none;
   font-family: "Roboto Slab", serif;
+}
+
+.about-content {
+  margin: auto;
+  font-size: 20px;
+}
+
+.about-me {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.project-content {
+  vertical-align: top;
+  padding: 10px;
+
 }
 
 a {
@@ -159,19 +175,11 @@ a {
   margin-bottom: 80px;
 }
 
-.about-content {
-  margin: auto;
-  font-size: 20px;
-}
-
-.project-content {
-  vertical-align: top;
-}
-
 .jan-headshot {
-  height: 90vmin;
+  height: 80vmin;
   pointer-events: none;
   border-radius: 10px;
+  margin-left: 30px;
 }
 
 footer {
