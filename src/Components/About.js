@@ -11,28 +11,33 @@ const About = () => {
             <tr className="about-content">
               <td>
                 <p>
-                  People said that I am dependable, conscientious, energetic,
-                  enthusiastic, never gives up, and a dedicated hard worker.
+                  I am recognized for my dependability, conscientiousness, and
+                  boundless enthusiasm, coupled with an unwavering dedication to
+                  hard work. With a wealth of experience spanning over 20 years
+                  in the tech community, I am eager to bring a unique
+                  perspective to any team.
                 </p>
                 <p>
-                  I am looking for an opportunity to use my skills and years of
-                  experience that brings a different perspective to any team. I
-                  enjoy collaborating with others on projects. My goal is to
-                  find a position that aligns with my values. Web accessibility
-                  is my passion to ensure that all people have equal access to
-                  technology.
+                  I am actively seeking opportunities to leverage my skills in
+                  collaboration, drawing upon a background that reflects my
+                  commitment to web accessibility. My passion lies in ensuring
+                  equal access to technology for all individuals, fostering
+                  inclusivity and aligning with principles of fairness and
+                  empowerment.
                 </p>
                 <p>
-                  With 20+ years in the tech community, I am committed learning
-                  and staying current with "tech tools". Designing and building
-                  amazing websites is not just a nine-to-five job for me, it is
-                  a passion with love!
+                  In my extensive career, I have consistently demonstrated a
+                  commitment to learning and staying abreast of the latest tech
+                  tools. Designing and building exceptional websites is not
+                  merely a job for me; it is a passion imbued with genuine love.
                 </p>
                 <p>
-                  Outside of technology, paddleboarding at a beach, swinging
-                  racquet sports, reading mysterious books, and toying with my
-                  two black and white cats, Bonnie and Clyde are what I enjoy.
+                  Beyond the tech realm, I find joy in paddleboarding at the
+                  beach, engaging in racquet sports, immersing myself in
+                  mysterious books, and enjoying the company of my two black and
+                  white cats, Bonnie and Clyde.
                 </p>
+            
               </td>
               <td>
                 <img
