@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import resume from "../Front-End Developer.pdf";
+import resume from "../FullStack-FrontEnd Developer.pdf"
 
 const Contact = () => {
   return (
