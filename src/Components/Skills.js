@@ -35,7 +35,7 @@ const Skills = () => {
           <Row>
             <Col>
               Jest, Postman, Firebase, Cloud Run, CI/CD, Web Accessibility,
-              PhotoShop, Software Testing, GitHub, WordPress, Drupal
+              PhotoShop, Software Testing, GitHub, WordPress, Drupal, Canva
             </Col>
           </Row>
         </Container>

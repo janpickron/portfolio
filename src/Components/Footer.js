@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <small>
-        Copyright © 2023 Designed by Janice Pickron | All rights reserved.
+        Copyright © 2025 Designed by Janice Pickron | All rights reserved.
       </small>
     </footer>
   );
