@@ -6,5 +6,6 @@
         "MERN",
         "paddleboarding",
         "Pickron"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
