@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import resume from "../Resume_Pickron_2025.pdf"
+//import resume from "../Resume_Pickron_2025.pdf"
 import resume2 from "../Pickron2026.pdf"
 
 const Contact = () => {
