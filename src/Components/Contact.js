@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import resume from "../Resume_Pickron_2025.pdf"
+import resume2 from "../Pickron2026.pdf"
 
 const Contact = () => {
   return (
@@ -62,7 +63,7 @@ const Contact = () => {
                 </a>
               </td>
               <td>
-                <a href={resume} target="parent">
+                <a href={resume2} target="parent">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="50"
