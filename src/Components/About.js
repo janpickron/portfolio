@@ -11,31 +11,14 @@ const About = () => {
             <tr className="about-content">
               <td className="about-me">
                 <p>
-                  I am recognized for my dependability, conscientiousness, and
-                  boundless enthusiasm, paired with an unwavering dedication to
-                  hard work. With over 20 years of experience in the tech
-                  industry, I bring a unique perspective and a deep passion for
-                  creating meaningful digital experiences.
-                </p>
-                <p>
-                  I am actively seeking opportunities where I can leverage my
-                  expertise in collaboration and web accessibility, driven by my
-                  commitment to ensuring equal access to technology for all.
-                  Inclusive is at the heart of my work, aligning with principles
-                  of fairness and empowerment.
-                </p>
-                <p>
-                  Throughout my career, I have remained committed to continuous
-                  learning, staying up to date with the latest industry tools
-                  and best practices. For me, designing and building exceptional
-                  websites is more than just a profession—it is a passion fueled
-                  by creativity and purpose.
-                </p>
-                <p>
-                  Outside of tech, I enjoy paddleboarding, playing racquet
-                  sports, diving into mystery books, and spending time with my
-                  tuxedo cats, Bonnie and Clyde.
-                </p>
+                  I am recognized for my dependability, conscientious approach, and consistent enthusiasm, supported by a strong commitment to quality work. With over 20 years of experience in the tech industry, I bring a broad perspective and a deep passion for creating meaningful, user-centered digital experiences.</p>
+
+                <p>I am actively seeking opportunities where I can apply my expertise in collaboration and web accessibility, with a focus on ensuring equal access to technology for all users. Inclusively is central to my work and reflects my commitment to fairness, usability, and empowerment.</p>
+
+                <p>Throughout my career, I have prioritized continuous learning, staying current with evolving tools, standards, and best practices in the industry. Designing and building impactful websites is more than a profession for me—it is a creative pursuit driven by purpose and problem-solving.</p>
+
+                <p>Outside of technology, I enjoy paddleboarding, playing racquet sports, reading mystery novels, and spending time with my tuxedo cats, Bonnie and Clyde.</p>
+                 
               </td>
               <td>
                 <img
